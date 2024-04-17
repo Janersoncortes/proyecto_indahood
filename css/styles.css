@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 400px;;
+    height: fit-content;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    justify-items: baseline;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #3055c6;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul{
+    text-align: center;
+    padding-right: 15px;
+}
+
+ul a{
+    text-decoration: none;
+    color: #333;
+    user-select: none;
+}
+
+select {
+    width: 100%; 
+    padding: 8px 12px;
+    border: 1px solid #cccccc; /* Color del borde */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #ffffff; /* Color de fondo */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    font-size: 16px; /* Tamaño de letra */
+    cursor: pointer; /* Cambia el cursor a una mano para indicar que es seleccionable */
+    outline: none; /* Elimina el contorno que aparece al enfocar el elemento */
+    -moz-appearance: none; /* Elimina el estilo predeterminado en Firefox */
+    -webkit-appearance: none; /* Elimina el estilo predeterminado en Chrome y Safari */
+    appearance: none; /* Elimina el estilo predeterminado para los navegadores que soporten esta propiedad */
+    margin-bottom: 10px; /* Espacio debajo del select */
+}

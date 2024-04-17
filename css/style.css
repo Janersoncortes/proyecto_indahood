@@ -1,0 +1,382 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+
+}
+.swiper-slide{
+    padding: 0 80px 50px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-button-prev::after{
+    font-size: 25px;
+}
+.swiper-button-next::after{
+    font-size: 25px;
+}
+.swiper-button-prev{
+    color: blue;
+}
+.swiper-button-next{
+    color: blue;
+}
+.swiper-pagination-bullet{
+    background-color: rgb(39, 6, 184);
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color:brown
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+.logo{
+    font-size: 25px;
+    color: blueviolet;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: blue;
+    display: block;
+}
+.menu.navbar ul li a:hover{
+    color: black;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.submenu{
+    position: relative;
+}
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color:white;
+    padding: 20px;
+    min-width: 400px;
+}
+table{
+    width: 100%;
+}
+th,td{
+    color:blue;
+}
+.borrar{
+    background-color:blue;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: pink;
+    font-weight: 800;
+}
+.header-content{
+    padding: 200px 0 100px 0;
+
+}
+.header-info{
+    display: flex;
+}
+.header-txt{
+    width: 50%;
+}
+.header-txt h1{
+    font-size: 50px;
+    color: black;
+    text-transform: capitalize;
+}
+.header-img{
+    width: 50%;
+    text-align: right;
+}
+.header-img img{
+    width: 500px;
+}
+.prices{
+    display: flex;
+    margin: 20px;
+
+}
+.price-1{
+    font-size: 30px;
+    color:blue;
+    text-decoration-line: line-through ;
+    margin-right: 25px;
+}
+.price-2{
+    font-size: 30px;
+}
+.btn-1{
+    display: inline-block;
+    background-color: blue;
+    color: azure;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+.btn-1:hover{
+    background-color: blue;
+}
+hr{
+    border: 1px solid blue;
+}
+
+.categories{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.categorie{
+    display: flex;
+    align-items: center;
+    padding: 35px;
+
+
+}
+
+.categorie img{
+    width: 150px;
+}
+
+
+.categorie-1 h3{
+    color:black;
+    font-size: 22px;
+    font-weight: 600;
+   
+}
+.categorie-1 p{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+.categorie-img{
+    width: 50%;
+}
+
+.productos{
+    padding: 50px 0 ;
+}
+.productos h2{
+    font-size: 50px;
+    color:black;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.producto{
+    text-align: center;
+
+}
+.producto img{
+    width: 150px;
+    margin-bottom: 15px;
+}
+.producto-txt h3{
+    font-size:18px ;
+    color:black;
+    margin-bottom: 15px;
+}
+.producto-txt p{
+    color:black;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.producto-container{
+    text-align: center;
+
+}
+.precio{
+    color: black !important;
+}
+.btn-3{
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-top: 15px;
+}
+.btn-3:hover{
+    background-color: violet;
+
+}
+.footer{
+    display: flex;
+    padding: 30px 0;
+}
+.link{
+    width: 20%;
+}
+.link h3{
+    color: antiquewhite;
+    margin-bottom: 20px;
+}
+.link a{
+    color: black;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+.link p{
+    color: black;
+    font-size: 16px;
+}
+@media(max-width:991px){
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu.navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(67, 65, 221);
+        display: none;
+    }
+    .meu .navbar ul li{
+        width: 100%;
+    }
+    menu:checked~.navbar{
+        display: initial;
+    }
+    .logo{
+        display: none;
+    }
+    .submenu:hover #carrito{
+        min-height: 100%;
+    }
+    .myswiper-1{
+        width: 300px;
+
+    }
+    .swiper-slide{
+        padding: o 30px 50px 30px;
+    }
+    .header-content{
+        padding: 100px 0 50px 0;
+    }
+    .header-info{
+        padding: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-txt{
+        width: 100%;
+    }
+    .header-txt h1{
+        font-size: 40px;
+    }
+    .header-img{
+        width: 100%;
+    }
+    .header-img img{
+        width: 200px;
+
+    }
+    .prices{
+        flex-direction: column;
+    }
+    .price-1{
+        margin: 0;
+    }
+    .btn-1{
+        margin: 20px 0;
+
+    }
+    .promos{
+        padding: 30px;
+
+    }
+    .promos h2{
+        font-size: 40px;
+        margin-bottom: 0;
+
+    }
+    .categories{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .categorie{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .categorie-1{
+        width: 100%;
+        margin-bottom: 25px;
+        order: -1;
+
+    }
+    .categorie-img{
+        width: 100%;
+
+    }
+    .productos{
+        padding: 30px;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .link{
+        width: 100%;
+    }
+}

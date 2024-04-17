@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de usuarios</h1>
+        <form action="Php/datos.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Nombre" required><br>
+            <input type="text" name="lastname" id="lastname" placeholder="Apellido" required><br>
+            <input type="number" name="age" id="age" placeholder="Edad" maxlength="2" required><br>
+
+            <select  name="gender" id="gender" required>
+                <option value="male">Hombre</option>
+                <option value="female">Mujer</option>    
+                <option value="other">Otros</option>
+            </select><br>
+
+            <input type="number" name="id" id="id" placeholder="ID" required><br>
+            <input type="text" name="city" id="city" placeholder="Ciudad" required><br>
+
+            <select  name="kindUser" id="kindUser" required>
+                <option value="super">Super Usuario</option>
+                <option value="admin">Administrador</option>    
+                <option value="visitant">Visitante</option>
+            </select><br>
+
+            <input type="text" name="username" id="username" placeholder="Nombre de usuario" required><br>
+            <input type="password" name="password" id="password" placeholder="Contraseña" required><br>
+            <button type="submit">Registrar</button>
+        </form>
+    </div>    
+</body>
+</html>

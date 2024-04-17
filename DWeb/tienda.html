@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+
+        <title>document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="/indahood/css/style.css" />
+</head>
+
+<body>
+    <header clas="header">
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu"><img sre="/indahood/img/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Tienda</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contatco</a></li>
+                </ul>
+            </nav>  
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="/indahood/img/carrito.png" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3"> Vaciar Carrito</a>
+                        </div>
+                    </li>            
+                </ul>
+            </div>  
+        </div>
+        <div class="header-content container">
+            <div class="swiper myswiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>gaseosa</h1>
+                                <div class="precios">
+                                    <p class="precio-1">3000</p>
+                                    
+                                </div>
+                                <a href="a" class="boton-2">Informacion</a>
+                            </div>
+                        </div>
+                        <div class="header-img">
+                            <img src="/indahood/img/gaseosa.jpeg" alt="">
+                        </div>    
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>leche</h1>
+                                <div class="precios">
+                                    <p class="precio-1">3000</p>
+                                </div>
+                                <a href="a" class="boton-2">Informacion</a>
+                            </div>
+                        </div>
+                        <div class="header-img">
+                            <img src="/indahood/img/leche.jpeg" alt="">
+                        </div>   
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>papas</h1>
+                                <div class="precios">
+                                    <p class="precio-1">3000</p>
+                                </div>
+                                <a href="a" class="boton-2">Informacion</a>
+                            </div>
+                        </div>
+                        <div class="header-img">
+                            <img src="/indahood/img/papas.jpeg" alt="">
+                        </div>   
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="categoria container" id="lista-1">
+        <h2> categorias</h2>
+        <div class="categories">
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Bebidas</h3>
+                    <div class="prices">
+                        <p class="price-1"></p>
+                        <p class="precio"></p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="/indahood/img/bebidad.jpeg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Frutas</h3>
+                    <div class="prices">
+                        <p class="price-1"></p>
+                        <p class="precio"></p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="/indahood/img/fruta.jpeg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Dulces</h3>
+                    <div class="prices">
+                        <p class="price-1"></p>
+                        <p class="precio"></p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="/indahood/img/dulce.jpeg" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie1">
+                    <h3>Aseo personal</h3>
+                    <div class="prices">
+                        <p class="precie-1"></p>
+                        <p class="precio"></p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="/indahood/img/personal.jpeg" alt="">
+                </div>
+            </div>
+        </div>    
+
+    </section>
+
+    <br>
+
+    <section class="producto-container" id="lista-2">
+        <h2>Bebidas</h2>
+        <div class="swiper myswiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/yogurt.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>Yogurt</h3>
+                            <p>Yogurt alpina de  fresa</p>
+                            <p class="precio">$2500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5"> Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/psotobon.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>Gaseosa</h3>
+                            <p>Gaseosa postobon</p>
+                            <p class="precio">$2000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6"> Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/leche.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>Leche</h3>
+                            <p>Leche Alqueria</p>
+                            <p class="precio">$4500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="7"> Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/cerveza.jpg" alt="">
+                        <div class="producto-txt">
+                            <h3>Cerveza</h3>
+                            <p>Cerveza poker </p>
+                            <p class="precio">$2200</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="8"> Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/gatorade.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>Gatorade</h3>
+                            <p>Gatoarde frutos rojos</p>
+                            <p class="precio">4000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="9"> Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next" ></div>
+            <div class="swiper-button-prev" ></div>
+        </div>
+        
+    </section>
+
+    <hr>
+    
+    <section class="producto container" id="lista-3">
+        <h2> Aseo personal</h2>
+        <div class="swiper myswiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/leche.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>chocolatina</h3>
+                            <p>chocolatina jet</p>
+                            <p class="precio">1500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="10"> Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/leche.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>chocolatina</h3>
+                            <p>chocolatina jet</p>
+                            <p class="precio">1500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="11"> Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/leche.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>chocolatina</h3>
+                            <p>chocolatina jet</p>
+                            <p class="precio">1500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="12"> Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/leche.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>chocolatina</h3>
+                            <p>chocolatina jet</p>
+                            <p class="precio">1500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="13"> Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next" ></div>
+            <div class="swiper-button-prev" ></div>
+        </div>
+
+    </section> 
+    <section class="producto container" id="lista-4">
+        <h2> Frutas</h2>
+        <div class="swiper myswiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/leche.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>chocolatina</h3>
+                            <p>chocolatina jet</p>
+                            <p class="precio">1500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="14"> Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/leche.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>chocolatina</h3>
+                            <p>chocolatina jet</p>
+                            <p class="precio">1500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="15"> Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/leche.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>chocolatina</h3>
+                            <p>chocolatina jet</p>
+                            <p class="precio">1500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="16"> Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/leche.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>chocolatina</h3>
+                            <p>chocolatina jet</p>
+                            <p class="precio">1500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="17"> Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next" ></div>
+            <div class="swiper-button-prev" ></div>
+        </div>
+
+    </section> 
+    <section class="producto container" id="lista-5">
+        <h2> Dulces</h2>
+        <div class="swiper myswiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/leche.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>chocolatina</h3>
+                            <p>chocolatina jet</p>
+                            <p class="precio">1500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="18"> Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/leche.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>chocolatina</h3>
+                            <p>chocolatina jet</p>
+                            <p class="precio">1500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="19"> Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/leche.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>chocolatina</h3>
+                            <p>chocolatina jet</p>
+                            <p class="precio">1500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="20"> Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="producto">
+                        <img src="/indahood/img/leche.jpeg" alt="">
+                        <div class="producto-txt">
+                            <h3>chocolatina</h3>
+                            <p>chocolatina jet</p>
+                            <p class="precio">1500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="21"> Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next" ></div>
+            <div class="swiper-button-prev" ></div>
+        </div>
+
+    </section> 
+
+    <footer class="footer container">
+
+        <div class="link">
+           <h2>lorem</h2> 
+           <ul>
+                <li><a href="a">Lorem</a></li>
+                <li><a href="a">Lorem</a></li>
+                <li><a href="a">Lorem</a></li>
+                <li><a href="a">Lorem</a></li>
+           </ul>
+        </div>
+        <div class="link">
+            <h2>lorem</h2> 
+            <ul>
+                 <li><a href="a">Lorem</a></li>
+                 <li><a href="a">Lorem</a></li>
+                 <li><a href="a">Lorem</a></li>
+                 <li><a href="a">Lorem</a></li>
+            </ul>
+         </div>
+         <div class="link">
+            <h2>lorem</h2> 
+            <ul>
+                 <li><a href="a">Lorem</a></li>
+                 <li><a href="a">Lorem</a></li>
+                 <li><a href="a">Lorem</a></li>
+                 <li><a href="a">Lorem</a></li>
+            </ul>
+         </div>
+         <div class="link">
+            <h2>lorem</h2> 
+            <ul>
+                 <li><a href="a">Lorem</a></li>
+                 <li><a href="a">Lorem</a></li>
+                 <li><a href="a">Lorem</a></li>
+                 <li><a href="a">Lorem</a></li>
+            </ul>
+         </div>
+         <div class="link">
+            <h2>lorem</h2> 
+           <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam vero itaque doloribus laudantium dignissimos dolor saepe iste ratione explicabo ab similique assumenda, et incidunt, harum cupiditate blanditiis? In, quae voluptate!
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Non minima, illum totam laudantium dolorum cupiditate quibusdam quam adipisci expedita tempore nisi doloremque a placeat velit blanditiis nobis hic? Unde, harum? 
+           </p>
+         </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="/indahood/scripts/script.js"></script>
+
+</body>
+</html>
