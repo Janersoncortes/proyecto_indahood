@@ -24,17 +24,17 @@ if (mysqli_num_rows($result) > 0) {
         switch ($tipoUserDB)
             {
              case "super": {
-                header("Location: /indahood/Dweb/SuperAdmin.html");
+                header("Location: ../Dweb/SuperAdmin.html");
                 break;
              }
 
              case "admin": {
-                header("Location: /indahood/Dweb/inventario.html");
+                header("Location: ../Dweb/inventario.html");
                 break;
              }
 
              case "visitant": {
-                header("Location: /indahood/Dweb/tienda.html");
+                header("Location: ../Dweb/tienda.html");
                 echo"Estás en visitant";
                 break;
              }
