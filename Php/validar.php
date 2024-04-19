@@ -34,7 +34,7 @@ if (mysqli_num_rows($result) > 0) {
              }
 
              case "visitant": {
-                header("Location: ../Dweb/tienda.html");
+                header("Location: ../index.html");
                 echo"Estás en visitant";
                 break;
              }
