@@ -1,5 +1,5 @@
 // Conexión a la base de datos MySQL
-const mysql = require('mysql');
+const mysql = require('mysql')
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
@@ -137,3 +137,5 @@ renderProducts();
 
 // Agregar el evento submit al formulario
 productForm.addEventListener('submit', addProduct);
+
+connection.end()
